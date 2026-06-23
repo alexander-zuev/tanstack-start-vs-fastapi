@@ -7,8 +7,6 @@ serving byte-identical responses.
 
 > **The question:** if you build the same API the way you'd actually ship it, how much can a
 > single core serve, and does the framework's runtime even matter once a database is in the path?
-> **Expected shape:** a real but smaller edge on pure JSON than the bare-V8 ceiling (the framework
-> eats into it), and a statistical tie on a real query.
 
 A raw `fetch` handler on the same `workerd` is measured as a **floor** (the zero-framework ceiling),
 not a contender. See [`SPEC.md`](./SPEC.md) for the methodology, [`RUNBOOK.md`](./RUNBOOK.md) for the
