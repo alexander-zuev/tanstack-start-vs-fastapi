@@ -1,0 +1,14 @@
+# node
+node_modules/
+worker/dist/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# raw run outputs (kept out until we decide to commit a canonical dataset)
+results/
+
+# os
+.DS_Store
