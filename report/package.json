@@ -1,5 +1,5 @@
 {
-  "name": "cf-vs-fastapi-report",
+  "name": "tanstack-start-vs-fastapi-report",
   "private": true,
   "packageManager": "pnpm@11.8.0",
   "scripts": {

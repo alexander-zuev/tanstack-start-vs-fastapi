@@ -1,4 +1,4 @@
-# Benchmark spec — Cloudflare Workers vs FastAPI
+# Benchmark spec: TanStack Start vs FastAPI
 
 Single-core, apples-to-apples, local. This document is the source of truth for *what* we
 measure and *how*. The report (`report/report.html`) renders the results.

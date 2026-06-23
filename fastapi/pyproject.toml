@@ -1,5 +1,5 @@
 [project]
-name = "cf-vs-fastapi-api"
+name = "tanstack-start-vs-fastapi-api"
 version = "0.0.0"
 requires-python = ">=3.13"
 # Deps declared, NOT installed. Run `uv sync` when ready.

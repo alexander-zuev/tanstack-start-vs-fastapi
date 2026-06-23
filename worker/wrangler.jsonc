@@ -3,7 +3,7 @@
   // dist/index.js with the correct `cloudflare:sockets` externalization, the `workerd` export
   // condition for postgres.js, and node compat. The server is raw `workerd serve` (workerd.capnp) —
   // wrangler is NEVER in the request path, so we still measure pure workerd (SPEC §2, §6.2).
-  "name": "cf-vs-fastapi-worker",
+  "name": "tanstack-start-vs-fastapi-worker",
   "main": "src/index.ts",
   "compatibility_date": "2024-09-23",
   "compatibility_flags": ["nodejs_compat"]
