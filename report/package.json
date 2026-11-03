@@ -7,6 +7,6 @@
   },
   "comment": "Dev-only live-reload while designing the report. `pnpm install && pnpm dev` serves report.html at localhost:5173 with hot reload. The shipped artifact stays a hand-authored static report.html + chart.umd.min.js + results.js — we never `vite build` it. Deps declared, NOT installed.",
   "devDependencies": {
-    "vite": "^6.3.0"
+    "vite": "^6.4.5"
   }
 }
